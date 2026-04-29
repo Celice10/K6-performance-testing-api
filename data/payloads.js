@@ -1,7 +1,10 @@
+import http from 'k6/http';
+
+
 export const PAYLOADS = {
     login: {
-        "email": "username1@gmail.com",
-        "password": "test@123"
+        "email": "admin@gmail.com",
+        "password": "@12345678"
 
     }
 };
